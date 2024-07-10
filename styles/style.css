@@ -1,33 +1,81 @@
 /* Google font import link */
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Azeret Mono", monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
 }
 
 /* NAV-BAR START */
 .nav-bar {
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .resume-name {
-    margin-left: 130px;
+  color: rgb(13, 19, 33);
+  margin-left: 130px;
+  font-size: 28px;
 }
 
 .resume-button {
-    background-color: white;
-    padding: 15px 20px;
-    border: 1px solid rgb(13, 19, 33);
-    border-radius: 6px;
-    margin-right: 130px;
-    font-size: large;
-    font-weight: 500;
+  background-color: white;
+  padding: 15px 20px;
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 6px;
+  margin-right: 130px;
+  font-size: large;
+  font-weight: 500;
 }
 /* NAV-BAR END */
+
+/* BANNER SECTION START */
+.banner-container {
+  min-height: 650px;
+  background-image: url("../images/Hero-bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  width: 1000px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.developer-img-on-banner {
+  height: 210px;
+  width: 210px;
+}
+
+.banner-content > h1 {
+  color: rgb(13, 19, 33);
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+}
+
+.banner-content > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.banner-content > a {
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 19, 33);
+  padding: 20px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* BANNER SECTION END */
