@@ -65,9 +65,9 @@
 }
 
 .banner-content > p {
-  color: rgb(13, 19, 33);
-  font-size: 16px;
-  font-weight: 400;
+  color: rgba(13, 19, 33, 0.7);
+  font-size: 18px;
+  font-weight: 500;
   line-height: 26px;
 }
 
@@ -77,5 +77,95 @@
   padding: 20px 25px;
   text-decoration: none;
   border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
 }
 /* BANNER SECTION END */
+
+/* Why Web Development SECTION START */
+.why-web-development-container {
+  position: relative;
+  height: auto;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 80px 95px 80px 95px;
+  border-radius: 15px;
+  background: rgba(13, 19, 33, 0.02);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.why-web-development-content {
+  color: rgb(13, 19, 33);
+  width: 750px;
+  height: 110px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.web-development-reason-container {
+  width: 900px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 45px;
+  margin: 32px 0px;
+  border-radius: 15px;
+}
+
+.web-development-reason-container img {
+  width: 240px;
+  height: 240px;
+}
+
+.web-development-reason-container-bgc1 {
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.web-development-reason-container-bgc2 {
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+.web-development-reason-content {
+  width: 450px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.web-development-reason-content h1 {
+  color: rgba(13, 19, 33, 0.7);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.web-development-reason-content p {
+  color: rgba(13, 19, 33, 0.7);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.web-development-reason-content > a {
+  width: 150px;
+  height: 48px;
+  text-decoration: none;
+  text-align: center;
+  padding: 12px 20px 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.7);
+  color: rgb(13, 19, 33);
+}
+/* Why Web Development SECTION END */
