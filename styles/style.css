@@ -10,7 +10,7 @@
 
 /* NAV-BAR START */
 .nav-bar {
-  height: 100px;
+  min-height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@
 .resume-name {
   color: rgb(13, 19, 33);
   margin-left: 130px;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 .resume-button {
@@ -31,24 +31,25 @@
   font-size: large;
   font-weight: 500;
 }
-
 /* NAV-BAR END */
 
 /* BANNER SECTION START */
 .banner-container {
-  min-height: 650px;
+  min-height: 620px;
   background-image: url("../images/Hero-bg.png");
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .banner-content {
-  width: 1000px;
-  height: 580px;
+  max-width: 1000px;
+  min-width: 1000px;
+  min-height: 580px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
@@ -60,9 +61,9 @@
 
 .banner-content > h1 {
   color: rgb(13, 19, 33);
-  font-size: 48px;
-  font-weight: 800;
-  line-height: 68px;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 65px;
 }
 
 .banner-content > p {
@@ -78,16 +79,15 @@
   padding: 20px 25px;
   text-decoration: none;
   border-radius: 5px;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 500;
 }
-
 /* BANNER SECTION END */
 
 /* Why Web Development SECTION START */
 .why-web-development-container {
   height: auto;
-  width: 1000px;
+  max-width: 1000px;
   margin: 60px auto;
   padding: 80px 95px 80px 95px;
   border-radius: 15px;
@@ -160,7 +160,7 @@
 
 .web-development-reason-content h1 {
   color: rgba(13, 19, 33, 0.7);
-  font-weight: 650;
+  font-weight: 700;
   font-size: 24px;
   line-height: 35px;
 }
@@ -182,14 +182,13 @@
   border: 1px solid rgba(13, 19, 33, 0.7);
   color: rgb(13, 19, 33);
 }
-
 /* Why Web Development SECTION END */
 
 /* My Inspiration SECTION START */
 .my-inspiration-container {
   width: 1000px;
   height: auto;
-  margin: 60px auto;
+  margin: 70px auto;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -199,7 +198,7 @@
 
 .my-inspiration-content {
   width: 650px;
-  height: 100px;
+  height: 110px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -234,5 +233,93 @@
   height: 100%;
   border-radius: 15px;
 }
-
 /* My Inspiration SECTION END */
+
+/* My Current Target SECTION START */
+.my-current-target-container {
+  width: 1000px;
+  height: auto;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.my-current-target-content {
+  margin: 0 100px 40px;
+  text-align: center;
+}
+
+.my-current-target-content > h1 {
+  color: rgb(13, 19, 33);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 35px;
+  margin: 0 0 20px;
+}
+
+.my-current-target-content > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.my-current-target-items-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.my-current-target-items {
+  width: inherit;
+  height: 350px;
+  position: static;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 35px;
+  border-radius: 16px;
+}
+
+.my-current-target-items img {
+  width: 56px;
+  height: 56px;
+}
+
+.my-current-target-items h1 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+}
+
+.my-current-target-items p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.my-current-target-items a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
+
+.box-1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.box-2 {
+  background: rgba(0, 76, 232, 0.05);
+  margin: 0 20px;
+}
+
+.box-3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+/* My Current Target SECTION END */
