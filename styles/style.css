@@ -454,4 +454,36 @@
 }
 /* I need Support SECTION END */
 
+/* FOOTER SECTION START */
+footer {
+  height: 100px;
+  background: rgba(13, 19, 33, 0.03);
+  display: flex;
+  justify-content: center;
+}
 
+.footer-item-container {
+  width: 1000px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-item-container p {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-item-social-img {
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+}
+
+.footer-item-social a {
+  text-decoration: none;
+}
+/* FOOTER SECTION END */
