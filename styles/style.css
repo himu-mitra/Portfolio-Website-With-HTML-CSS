@@ -328,7 +328,7 @@
 .my-next-target-container {
   width: 1000px;
   height: auto;
-  margin: 90px auto;
+  margin: 70px auto;
 }
 
 .my-next-target-content {
@@ -395,3 +395,63 @@
   text-decoration-line: underline;
 }
 /* My Next Target SECTION END */
+
+/* I need Support SECTION START */
+.i-need-support-container {
+  background-image: url("../images/handshake.jpg");
+  width: 1000px;
+  height: 314px;
+  background-size: cover;
+  background-position: center;
+  margin: 70px auto;
+  text-align: center;
+  padding: 64px 48px;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.i-need-support-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  margin: 0 0 15px;
+}
+
+.i-need-support-content p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.i-need-support-input-content input {
+  width: 548px;
+  height: 55px;
+  padding: 18px 20px;
+  margin: 0px 8px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.i-need-support-input-content button {
+  width: 120px;
+  height: 57px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-size: 18px;
+  font-weight: 600;
+}
+/* I need Support SECTION END */
+
+
